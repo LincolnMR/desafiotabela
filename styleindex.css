@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	border:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+	font-family: "Nunito", arial, helvetica, sans-serif;
+	font-size: 20px;
+	background-color: #F0FFF0;
+}
+    
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.menu{
+    max-width: 968px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+	list-style-type: none;
+    font-weight: bold;
+    justify-content: center;
+    
+}
+
+.menu li a{
+    color:black; 
+    text-decoration:none;
+    padding: 20px;    
+}
+
+.menu li a:hover{
+	color:rgb(51, 51, 51);  
+	text-shadow:0px 0px 5px rgb(51, 51, 51); 
+}
+
+article {
+    max-height: auto;
+    max-width: auto;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.Titulo {
+    border: 1px solid black;
+}
+
+#tabela {
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+#tabela th,tr,td {
+    padding: 20px;
+}
+
+#tabela2 {
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#tabela2 th {
+    padding: 5px;
+}
+#tabela2 tr {
+    padding: 5px;
+}
+#tabela2 td {
+    padding: 5px;
+}
+
+#imgrodape {
+    bottom: 0;
+}
+
+#escura {
+    color: white;
+    background-color: rgb(42, 41, 48);
+}
+
+#azul{
+    background-color: rgb(206, 217, 223);
+}
